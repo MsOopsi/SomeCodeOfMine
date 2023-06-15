@@ -14,6 +14,8 @@ extern "C" {
 
 typedef struct {
  int x;
+float y;
+char z;
 }MySecretStruct;
 
 
