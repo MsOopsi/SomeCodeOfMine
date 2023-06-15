@@ -12,10 +12,10 @@ extern "C" {
 #include "../Kernels/source.h"
 }
 
-
 typedef struct {
- char c ;
-}MyVerySecretStruct;
+ int x;
+}MySecretStruct;
+
 
 
 /*as/dfa*asdfasdfasdf*/
