@@ -12,6 +12,12 @@ extern "C" {
 #include "../Kernels/source.h"
 }
 
+
+typedef struct {
+ char c ;
+}MyVerySecretStruct;
+
+
 /*as/dfa*asdfasdfasdf*/
 void cpu_calc_hist(uint n, HistogramParams* H, float* arr, int* sum, int* hist) {
 
