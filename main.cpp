@@ -12,7 +12,7 @@ extern "C" {
 #include "../Kernels/source.h"
 }
 
-
+/*as/dfa*asdfasdfasdf*/
 void cpu_calc_hist(uint n, HistogramParams* H, float* arr, int* sum, int* hist) {
 
 	float value = arr[n];
